@@ -1,11 +1,14 @@
 import React from 'react';
+import './style/main.css';
+import HeaderTop from './components/header'
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-    <h1>Atkwa</h1>
+    <div>
+<HeaderTop/>
+
+
     </div>
   );
 }
