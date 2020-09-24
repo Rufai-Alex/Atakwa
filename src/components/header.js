@@ -1,9 +1,12 @@
 import React from 'react';
 import  kalma from "../image/banner-img-1.jpg";
+import bismilla from '../image/kalma-text-img (1).png'
+
 
 function HeaderTop() {
     return(
         <div>
+          <img src="bismilla" alt="bismilla" srcset=""/>
             <nav  class="flex items-center bg-gray-800 p-3 flex-wrap">
             <a href="#" class="p-2 mr-4 inline-flex items-center"> 
             At-Taqwa
